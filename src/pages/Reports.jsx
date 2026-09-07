@@ -55,7 +55,7 @@ function Reports() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-100 flex">
+    <div className="min-h-screen bg-gray-100">
       
       {/* =========================
           Sidebar
@@ -65,7 +65,7 @@ function Reports() {
       {/* =========================
           Main Area
       ========================= */}
-      <div className="flex-1 min-w-0">
+      <div className="ml-64 flex-1 min-w-0">
 
         {/* Navbar */}
         <Navbar />

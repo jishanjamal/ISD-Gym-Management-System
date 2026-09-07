@@ -43,13 +43,13 @@ const attendance = [
   ];
 
   return (
-    <div className="min-h-screen bg-gray-100 flex">
+    <div className="min-h-screen bg-gray-100">
 
       {/* Sidebar */}
       <Sidebar />
 
       {/* Main Area */}
-      <div className="flex-1">
+      <div className="ml-64">
 
         {/* Navbar */}
         <Navbar />

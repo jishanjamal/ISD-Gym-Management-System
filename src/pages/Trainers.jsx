@@ -38,11 +38,11 @@ function Trainers() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-100 flex">
+    <div className="min-h-screen bg-gray-100">
 
       <Sidebar />
 
-      <div className="flex-1">
+      <div className="ml-64">
 
         <Navbar />
 
