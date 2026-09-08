@@ -16,6 +16,7 @@ import MemberDashboard from "./pages/MemeberDashboard";
 import MemberWorkout from "./pages/MemberWorkout";
 import MemberHealthDiet from "./pages/MemberHealthDiet";
 import MemberProgress from "./pages/MemberProgress";
+import TrainerDashboard from "./pages/TrainerDashboard";
 
 function App() {
   return (
@@ -57,6 +58,8 @@ function App() {
         <Route path = "/member-health-diet" element = {<MemberHealthDiet />}/>
         
         <Route path = "/member-progress" element = {<MemberProgress />}/>
+
+        <Route path = "/trainer-dashboard" element ={<TrainerDashboard />} />
 
       </Routes>
 

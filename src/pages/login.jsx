@@ -28,6 +28,14 @@ function Login() {
       return;
     }
 
+        if (email === "trainer@gmail.com" && password === "trainer123") {
+      localStorage.setItem("isLoggedIn", "true");
+      localStorage.setItem("userRole", "admin");
+
+      navigate("/dashboard");
+      return;
+    }
+
     alert("Invalid email or password");
   };
 
