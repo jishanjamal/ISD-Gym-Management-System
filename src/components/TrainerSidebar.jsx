@@ -39,19 +39,6 @@ function TrainerSidebar() {
         </NavLink>
 
         <NavLink
-          to="/trainer-members"
-          className={({ isActive }) =>
-            `block px-4 py-3 rounded-lg transition ${
-              isActive
-                ? "bg-blue-600 text-white"
-                : "text-gray-300 hover:bg-gray-700"
-            }`
-          }
-        >
-          Members
-        </NavLink>
-
-        <NavLink
           to="/trainer-workout"
           className={({ isActive }) =>
             `block px-4 py-3 rounded-lg transition ${
