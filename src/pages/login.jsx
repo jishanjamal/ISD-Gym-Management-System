@@ -32,7 +32,7 @@ function Login() {
       localStorage.setItem("isLoggedIn", "true");
       localStorage.setItem("userRole", "admin");
 
-      navigate("/dashboard");
+      navigate("/trainer-dashboard");
       return;
     }
 
