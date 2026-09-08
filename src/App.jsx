@@ -18,6 +18,7 @@ import MemberHealthDiet from "./pages/MemberHealthDiet";
 import MemberProgress from "./pages/MemberProgress";
 import TrainerDashboard from "./pages/TrainerDashboard";
 import TrainerWorkout from "./pages/TrainerWorkout";
+import TrainerDiet from "./pages/TrainerDiet";
 
 function App() {
   return (
@@ -64,6 +65,8 @@ function App() {
 
         <Route path ="/trainer-workout" element = {<TrainerWorkout />} />
         
+        <Route path = "/trainer-diet" element = {<TrainerDiet />}/>
+
       </Routes>
 
     </BrowserRouter>
