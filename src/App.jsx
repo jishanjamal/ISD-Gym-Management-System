@@ -19,6 +19,8 @@ import MemberProgress from "./pages/MemberProgress";
 import TrainerDashboard from "./pages/TrainerDashboard";
 import TrainerWorkout from "./pages/TrainerWorkout";
 import TrainerDiet from "./pages/TrainerDiet";
+import TrainerProgress from "./pages/TrainerProgress";
+import TrainerAttendance from "./pages/TrainerAttendance";
 
 function App() {
   return (
@@ -51,7 +53,7 @@ function App() {
 
         <Route path = "/reports" element = {<Reports />} />
 
-        <Route path = "/settings" element = {<Settings />}/>
+        <Route path = "/settings" element = {<Settings />} />
 
         <Route path = "/member-dashboard" element = {<MemberDashboard />} />
       
@@ -66,6 +68,10 @@ function App() {
         <Route path ="/trainer-workout" element = {<TrainerWorkout />} />
         
         <Route path = "/trainer-diet" element = {<TrainerDiet />}/>
+
+        <Route path = "/trainer-progress" element = {<TrainerProgress />} />
+ 
+        <Route path = "/trainer-attendance" element = {<TrainerAttendance />} />
 
       </Routes>
 
